@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("http://127.0.0.1:5001/api/users/login", { email, password });
+      const { data } = await axios.post("https://fitness-platform-backend.onrender.com/api/users/login", { email, password });
       console.log(data)
       localStorage.setItem('token', data.token);
       // localStorage.setItem('role', data.role);
