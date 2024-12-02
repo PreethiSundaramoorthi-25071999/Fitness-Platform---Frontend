@@ -40,7 +40,7 @@ function BookaClass() {
   // State to hold selected date, time, and AM/PM for each class
   const [selectedDateTime, setSelectedDateTime] = useState({});
   // State to hold the upcoming booked classes
-  const [upcomingClasses, setUpcomingClasses] = useState([]);
+  // const [upcomingClasses, setUpcomingClasses] = useState([]);
 
   const handleDateChange = (classId, date) => {
     setSelectedDateTime((prevState) => ({
@@ -88,7 +88,7 @@ myBookings = [...myBookings, bookedClass];
 // Save the updated array back to localStorage
 localStorage.setItem("mybookings", JSON.stringify(myBookings));
     //
-    setUpcomingClasses((prevClasses) => [...prevClasses, bookedClass]);
+    // setUpcomingClasses((prevClasses) => [...prevClasses, bookedClass]);
 
     alert(`Class booked for ${selectedDate.toLocaleDateString()} at ${selectedTime} ${amPmValue} , Check "My Bookings" page to view the booked class`);
   };

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaDumbbell } from "react-icons/fa6"; // Import the dumbbell icon
 import { MdSportsHandball } from "react-icons/md"; // Import a sports icon that supports styling
 // import { IoIosPeople } from "react-icons/io";
-import { RiCalendarScheduleLine } from "react-icons/ri";
+// import { RiCalendarScheduleLine } from "react-icons/ri";
 // import { FaRegBookmark } from "react-icons/fa";
 import { MdOutlineLogout } from "react-icons/md";
 // import { BsTicket } from "react-icons/bs";
