@@ -17,6 +17,7 @@ const initialBookings = [
 ];
 
 function ClassList() {
+  // eslint-disable-next-line
   const [bookings, setBookings] = useState(initialBookings);
   // const [bookings] = useState([]);
   const [rescheduleId, setRescheduleId] = useState(null);
