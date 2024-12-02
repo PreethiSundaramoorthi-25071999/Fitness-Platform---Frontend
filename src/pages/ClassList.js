@@ -17,8 +17,8 @@ const initialBookings = [
 ];
 
 function ClassList() {
-  // const [bookings, setBookings] = useState(initialBookings);
-  const [bookings] = useState([]);
+  const [bookings, setBookings] = useState(initialBookings);
+  // const [bookings] = useState([]);
   const [rescheduleId, setRescheduleId] = useState(null);
   const [newDate, setNewDate] = useState("");
   const [newTime, setNewTime] = useState("");
