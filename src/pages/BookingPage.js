@@ -17,6 +17,7 @@ const initialBookings = [
 
 //new
 function BookingPage() {
+  // eslint-disable-next-line 
   const [bookings, setBookings] = useState(initialBookings);
   // const [bookings] = useState(initialBookings);
   const [rescheduleId, setRescheduleId] = useState(null);
