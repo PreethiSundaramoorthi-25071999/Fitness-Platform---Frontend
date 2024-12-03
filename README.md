@@ -1,3 +1,9 @@
+***NOTE : Login page will take some time to load the main page***
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
